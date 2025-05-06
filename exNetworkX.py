@@ -30,5 +30,6 @@ print ("BFS:")
 #print (list(nx.bfs_edges(G,"Anchorage")))
 print (list(nx.bfs_tree(G,"Anchorage")))
 #print (nx.bfs_successors(G,"Anchorage"))
+# Depth First Search
 print ("DFS:")
 print (list(nx.dfs_preorder_nodes(G,"Anchorage")))
